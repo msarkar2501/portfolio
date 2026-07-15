@@ -1,0 +1,34 @@
+import type { ProjectItem } from "@/lib/types";
+import EntryCard from "./EntryCard";
+import Reveal from "./Reveal";
+
+export default function Projects({ items }: { items: ProjectItem[] }) {
+  return (
+    <section id="projects" className="scroll-mt-24 py-20 sm:py-28">
+      <div className="container-page">
+        <Reveal>
+          <span className="section-eyebrow">Capstone Project</span>
+          <h2 className="section-title mt-3">
+            Building hardware that proves the model
+          </h2>
+          <p className="mt-3 max-w-2xl text-slate-400">
+            Where my mechanical training becomes tangible — a real device, real
+            flow regimes, and measurements I can defend.
+          </p>
+        </Reveal>
+
+        <div className="mt-10 grid gap-5">
+          {items.map((item, i) => (
+            <EntryCard
+              key={item.id}
+              item={item}
+              accent="mech"
+              index={i}
+              kind="Project"
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

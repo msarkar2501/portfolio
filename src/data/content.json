@@ -1,0 +1,346 @@
+{
+  "profile": {
+    "name": "Manit Sarkar",
+    "tagline": "Engineering at the intersection of AI/ML, Astrophysics & Mechanical Systems",
+    "titleShort": "Multidisciplinary Engineer · AI/ML · Astrodynamics · Mechanical",
+    "email": "manitsarkar25@gmail.com",
+    "phone": "+91 8130216423",
+    "location": "Patiala, India",
+    "github": "https://github.com/msarkar2501",
+    "linkedin": "https://www.linkedin.com/in/manit-sarkar-486363283",
+    "languages": [
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "Hindi",
+        "level": "Native"
+      },
+      {
+        "name": "French",
+        "level": "Beginner"
+      },
+      {
+        "name": "Bengali",
+        "level": "Native"
+      }
+    ],
+    "summary": [
+      "I am a third-year Mechanical Engineering student at the Thapar Institute of Engineering and Technology who refuses to treat disciplines as walls. My work lives in the seams between fields — where a convolutional neural network trained on galaxy imagery informs how I think about vibration in a wind harvester, and where orbital mechanics teaches me to respect the physics that machine learning can only approximate.",
+      "In the last two years I have built CNN and ensemble pipelines that classify galaxy morphologies at ~93% accuracy, modeled satellite trajectories under solar-storm perturbations, and designed bluff-body energy harvesters across hybrid flow regimes. The thread connecting all of it is a deep, restless curiosity: I want to understand how complex systems behave, and I want the tools I build to respect the underlying physics rather than paper over it.",
+      "Recruiters often ask where I 'specialize.' My answer is that I specialize in the intersections. The rarest kind of engineer is one who can move fluidly between a PyTorch training loop, a SPICE ephemeris, and a SolidWorks assembly — and who brings the rigor of each field to the others. That is the engineer I am building myself to be.",
+      "Right now I am expanding the AI side of my toolkit by exploring the foundations of Large Language Models and Agentic AI — and I want to be upfront that this is a current, personal learning journey, not a finished expertise. What pulls me in is simple curiosity: I want to genuinely understand how foundational agentic workflows, prompt engineering, and tool integration actually work from the ground up, rather than just call an API and trust the result. It is the part of my learning I am most excited about at the moment, and it builds naturally on top of the mechanical and astrodynamics backbone I already know how to trust."
+    ]
+  },
+  "narrative": {
+    "eyebrow": "The Multidisciplinary Advantage",
+    "heading": "One mind, three disciplines — engineered to compound",
+    "intro": "Most engineers go deep in one lane. I deliberately went wide, and then I made the lanes talk to each other. Here is why that intersection is not a dilution of focus — it is a force multiplier.",
+    "pillars": [
+      {
+        "field": "AI / ML",
+        "accent": "ai",
+        "title": "The analytical engine",
+        "description": "Deep learning, computer vision and classical ML are how I turn messy physical signals into decisions. From ResNet-18 galaxy classifiers to orbital-prediction models, ML is my default instrument for pattern and prediction. Lately that same curiosity has carried me past model-building and into the foundations of Large Language Models and Agentic AI — a personal learning frontier where I am studying how agentic workflows, prompt engineering, and tool integration fit together from first principles, and folding what I learn back into the same physics-first, build-it mindset."
+      },
+      {
+        "field": "Astrophysics / Astrodynamics",
+        "accent": "astro",
+        "title": "The physics compass",
+        "description": "Working with multiwavelength astronomy and satellite trajectory dynamics trained me to reason about real, governed systems — gravity, radiation pressure, perturbations — where the math must actually close. It keeps my ML honest."
+      },
+      {
+        "field": "Mechanical Engineering",
+        "accent": "mech",
+        "title": "The build discipline",
+        "description": "SolidWorks, CREO, FEA thinking and hands-on energy-harvester design ground my models in manufacturable reality. I do not just simulate — I design, test and iterate on physical hardware across bending, torsional and galloping regimes."
+      }
+    ],
+    "closing": "Separately, each field makes me competent. Together, they make me rare: I can frame a research problem physically, model it computationally, and build the hardware to prove it. That is the superpower I bring to a team."
+  },
+  "education": [
+    {
+      "id": "edu-tiet",
+      "institution": "Thapar Institute of Engineering and Technology (TIET)",
+      "location": "Patiala, India",
+      "degree": "B.E., Mechanical Engineering",
+      "status": "4th Year",
+      "period": "2023 – 2027 (expected)",
+      "cgpa": "8.95 / 10",
+      "highlights": [
+        "Awarded Merit Scholarship (50% tuition fee waiver) for academic performance in the 2nd year."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "res-galaxy",
+      "title": "Multiwavelength Galaxy Morphology Classification using AI/ML",
+      "period": "Jan 2025 – Present",
+      "description": "Developing a CNN-based pipeline that classifies galaxy morphologies using multiwavelength imaging data, fusing information across bands to improve morphological discrimination beyond single-band approaches.",
+      "tags": [
+        "CNN",
+        "Computer Vision",
+        "AstroPy",
+        "Multiwavelength",
+        "Image Processing"
+      ],
+      "media": []
+    },
+    {
+      "id": "res-orbital",
+      "title": "Orbital Dynamics & Satellite Trajectory Prediction using ML",
+      "period": "Sep 2025 – Present",
+      "description": "Investigating orbital perturbations — solar radiation pressure, atmospheric drag and gravitational harmonics — during solar storm events, and building ML models to predict satellite trajectory deviations under disturbed-space-weather conditions.",
+      "tags": [
+        "Astrodynamics",
+        "SpiceyPy",
+        "ML",
+        "Perturbations",
+        "Space Weather"
+      ],
+      "media": []
+    }
+  ],
+  "internships": [
+    {
+      "id": "int-elsi",
+      "title": "Experiential Learning Summer Internship",
+      "organization": "Research Internship",
+      "period": "Summer",
+      "description": "Classified galaxy morphologies using a ResNet-18 CNN combined with an XGBoost ensemble, achieving ~93% overall classification accuracy across morphological classes.",
+      "tags": [
+        "ResNet-18",
+        "XGBoost",
+        "CNN",
+        "Computer Vision",
+        "Astronomy"
+      ],
+      "media": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-fiv",
+      "title": "Flow-Induced Vibration Wind Energy Harvester",
+      "period": "Jan 2026 – Dec 2026",
+      "description": "Capstone project designing a flow-induced-vibration energy harvester. Testing multiple bluff-body geometries across bending, torsional, and VIV–galloping hybrid flow regimes to maximize power extraction from low-speed airflow.",
+      "tags": [
+        "Vibration",
+        "CFD",
+        "Bluff Body",
+        "Energy Harvesting",
+        "SolidWorks"
+      ],
+      "media": []
+    },
+    {
+      "id": "proj-1784143685849",
+      "title": "Research Briefing Agent (Beginner)",
+      "period": "June 2026",
+      "description": "Built an autonomous research agent that combines RAG (ChromaDB) with agentic tool use — web search, Wikipedia lookup, and local document retrieval — deciding which sources to consult based on the query. Persists conversation memory across sessions and includes an automatic summarization step to manage context length. Evaluated with a custom notebook measuring retrieval hit-rate and LLM-as-judge faithfulness scoring against a test set, achieving 100% pass rate.",
+      "tags": [
+        "AG",
+        "ChromaDB",
+        "Agentic Tool Use",
+        "LLM Evaluation",
+        "Groq",
+        "Python",
+        "Vector Search"
+      ],
+      "media": [],
+      "link": "https://github.com/msarkar2501/LLM_Learning/tree/main/6_Research_Agent"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-ml-spec",
+      "name": "Machine Learning Specialization",
+      "issuer": "DeepLearning.AI (Andrew Ng)",
+      "period": "",
+      "note": "Supervised & unsupervised learning, recommender systems, reinforcement learning."
+    },
+    {
+      "id": "cert-tf-dev",
+      "name": "TensorFlow Developer Certificate Courses",
+      "issuer": "Laurence Moroney / Andrew Ng",
+      "period": "",
+      "note": "Production-grade model building and deployment with TensorFlow."
+    },
+    {
+      "id": "cert-dl-spec",
+      "name": "Deep Learning Specialization",
+      "issuer": "DeepLearning.AI (Neural Networks & Deep Learning)",
+      "period": "",
+      "note": "Neural networks, hyperparameter tuning, regularization, optimization."
+    }
+  ],
+  "skills": [
+    {
+      "id": "sk-python",
+      "name": "Python",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-ccpp",
+      "name": "C/C++",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-sup",
+      "name": "Supervised Learning",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-unsup",
+      "name": "Unsupervised Learning",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-cv",
+      "name": "Computer Vision",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-nn",
+      "name": "Neural Networks",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-nlp",
+      "name": "NLP",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-img",
+      "name": "Image Processing",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-tf",
+      "name": "TensorFlow",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-torch",
+      "name": "PyTorch",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-sk",
+      "name": "Scikit-learn",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-np",
+      "name": "NumPy",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-mat",
+      "name": "Matplotlib",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-ocv",
+      "name": "OpenCV",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-mp",
+      "name": "MediaPipe",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-yolo",
+      "name": "YOLO",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-astro",
+      "name": "Astropy",
+      "category": "Astrophysics"
+    },
+    {
+      "id": "sk-aq",
+      "name": "AstroQuery",
+      "category": "Astrophysics"
+    },
+    {
+      "id": "sk-spice",
+      "name": "SpiceyPy",
+      "category": "Astrophysics"
+    },
+    {
+      "id": "sk-sw",
+      "name": "SolidWorks",
+      "category": "Mechanical"
+    },
+    {
+      "id": "sk-creo",
+      "name": "CREO Parametric",
+      "category": "Mechanical"
+    },
+    {
+      "id": "sk-os",
+      "name": "OnShape",
+      "category": "Mechanical"
+    },
+    {
+      "id": "sk-acad",
+      "name": "AutoCAD",
+      "category": "Mechanical"
+    },
+    {
+      "id": "sk-matlab",
+      "name": "MATLAB",
+      "category": "Mechanical"
+    },
+    {
+      "id": "sk-llm-apis-groq-",
+      "name": "LLM APIs (Groq)",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-prompt-engineering",
+      "name": "Prompt Engineering",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-rag",
+      "name": "RAG",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-chromadb",
+      "name": "ChromaDB",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-vector-embeddings",
+      "name": "Vector Embeddings",
+      "category": "AI/ML"
+    },
+    {
+      "id": "sk-agentic-tool-use",
+      "name": "Agentic Tool Use",
+      "category": "AI/ML"
+    }
+  ],
+  "contact": {
+    "email": "manitsarkar25@gmail.com",
+    "phone": "+91 8130216423",
+    "github": "https://github.com/msarkar2501",
+    "linkedin": "https://www.linkedin.com/in/manit-sarkar-486363283",
+    "note": "I am always happy to talk about research, collaboration, or the beautiful weirdness of orbital mechanics. Reach out — I read everything."
+  },
+  "researchInterests": [
+    {
+      "id": "intr-pinn-surrogate",
+      "title": "Physics-Informed Machine Learning & Surrogate Modeling",
+      "description": "Exploring how combining mechanical engineering principles with deep learning can create Physics-Informed Neural Networks (PINNs) and lightweight surrogate models. Passionate about leveraging these hybrid models to accelerate complex simulations, predict structural vibrations, and model orbital perturbations with high computational efficiency and physical accuracy."
+    }
+  ],
+  "updatedAt": "2026-07-15T20:45:59.450Z"
+}
