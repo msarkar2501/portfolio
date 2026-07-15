@@ -222,6 +222,7 @@ function MediaEditor({
 
 const TABS = [
   "Profile",
+  "CV",
   "Narrative",
   "Education",
   "Interests",
@@ -423,6 +424,7 @@ export default function Admin() {
 
       <div className="container-page max-w-3xl space-y-6 py-8">
         {tab === "Profile" && <ProfileTab c={content} patch={patchProfile} />}
+        {tab === "CV" && <CvTab c={content} patch={patchProfile} />}
         {tab === "Narrative" && <NarrativeTab c={content} patch={patchNarrative} />}
         {tab === "Education" && (
           <ListTab<Education>
@@ -1042,6 +1044,125 @@ function ContactTab({
         <Area label="Note" value={ct.note} onChange={(v) => patch({ note: v })} rows={3} />
       </div>
     </Card>
+  );
+}
+
+/* ───────────────────────── CV manager ───────────────────────── */
+
+function CvTab({
+  c,
+  patch,
+}: {
+  c: Content;
+  patch: (p: Partial<Profile>) => void;
+}) {
+  const cvUrl = c.profile.cvUrl;
+  const [uploading, setUploading] = useState(false);
+  const [msg, setMsg] = useState("");
+  const [err, setErr] = useState("");
+
+  const onUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const f = e.target.files?.[0];
+    if (!f) return;
+    setUploading(true);
+    setErr("");
+    setMsg("");
+    const fd = new FormData();
+    fd.append("file", f);
+    try {
+      const r = await fetch("/api/cv", { method: "POST", body: fd });
+      const j = await r.json();
+      if (j.ok) {
+        patch({ cvUrl: j.url });
+        setMsg("CV uploaded — it's live on the site.");
+      } else {
+        setErr(j.error || "Upload failed");
+      }
+    } catch {
+      setErr("Upload failed");
+    } finally {
+      setUploading(false);
+      e.target.value = "";
+    }
+  };
+
+  const onDelete = async () => {
+    if (
+      !window.confirm(
+        "Delete the current CV? The hero 'Download CV' button will be hidden until you upload a new one."
+      )
+    ) {
+      return;
+    }
+    setUploading(true);
+    setErr("");
+    setMsg("");
+    try {
+      const r = await fetch("/api/cv", { method: "DELETE" });
+      const j = await r.json();
+      if (j.ok) {
+        patch({ cvUrl: "" });
+        setMsg("CV removed.");
+      } else {
+        setErr(j.error || "Delete failed");
+      }
+    } catch {
+      setErr("Delete failed");
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  return (
+    <div className="space-y-5">
+      <Card title="Résumé / CV">
+        <p className="mb-4 text-sm leading-relaxed text-slate-400">
+          Upload your PDF here to publish it. Reuploading replaces the existing file
+          and keeps the same download link, so you never have to touch the code. The
+          link also appears as a <span className="text-slate-200">“Download CV”</span>{" "}
+          button in the hero.
+        </p>
+
+        {cvUrl ? (
+          <div className="mb-4 flex flex-wrap items-center gap-3 rounded-lg border border-white/10 bg-ink-850/60 p-3">
+            <span className="chip border border-white/15 bg-white/5 text-slate-200">
+              Current: {cvUrl}
+            </span>
+            <a
+              href={cvUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="link-underline flex items-center gap-1 text-xs text-ai"
+            >
+              Open <ExternalIcon className="h-3.5 w-3.5" />
+            </a>
+            <button
+              onClick={onDelete}
+              disabled={uploading}
+              className="btn-ghost ml-auto disabled:opacity-50"
+            >
+              <TrashIcon className="h-4 w-4" /> Delete CV
+            </button>
+          </div>
+        ) : (
+          <p className="mb-4 text-sm text-slate-500">No CV uploaded yet.</p>
+        )}
+
+        <label className="btn-primary cursor-pointer whitespace-nowrap">
+          <UploadIcon className="h-4 w-4" />
+          {uploading ? "Uploading…" : cvUrl ? "Replace CV" : "Upload CV"}
+          <input
+            type="file"
+            accept="application/pdf,.pdf"
+            className="hidden"
+            onChange={onUpload}
+          />
+        </label>
+
+        {msg && <p className="mt-3 text-sm text-emerald-400">{msg}</p>}
+        {err && <p className="mt-3 text-sm text-red-400">{err}</p>}
+      </Card>
+    </div>
   );
 }
 

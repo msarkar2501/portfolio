@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import type { Profile } from "@/lib/types";
-import { GitHubIcon, LinkedInIcon, MailIcon, ArrowIcon, SparkIcon } from "./icons";
+import { GitHubIcon, LinkedInIcon, MailIcon, ArrowIcon, SparkIcon, DownloadIcon } from "./icons";
 
 function OrbitRing({
   size,
@@ -110,6 +110,11 @@ export default function Hero({
             <a href="#contact" className="btn-ghost">
               <MailIcon className="h-4 w-4" /> Get in touch
             </a>
+            {profile.cvUrl && (
+              <a href={profile.cvUrl} download className="btn-ghost">
+                <DownloadIcon className="h-4 w-4" /> Download CV
+              </a>
+            )}
           </motion.div>
 
           <motion.div

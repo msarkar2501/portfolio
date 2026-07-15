@@ -22,6 +22,7 @@ export interface Profile {
   linkedin: string;
   languages: Language[];
   summary: string[];
+  cvUrl: string;
 }
 
 export interface NarrativePillar {
