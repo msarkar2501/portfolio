@@ -102,7 +102,7 @@ export default function Hero({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.24 }}
-            className="mt-8 flex flex-wrap items-center gap-3"
+            className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
           >
             <a href="#research" className="btn-primary">
               Explore my work <ArrowIcon className="h-4 w-4" />
@@ -121,7 +121,7 @@ export default function Hero({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.32 }}
-            className="mt-6 flex items-center gap-3"
+            className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
           >
             <a
               href={profile.github}

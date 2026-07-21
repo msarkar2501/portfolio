@@ -54,7 +54,7 @@ function CopyRow({
       </div>
       <button
         onClick={copy}
-        className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-slate-300 transition-colors hover:border-white/30 hover:text-white"
+        className="rounded-full border border-white/10 px-4 py-2 text-xs text-slate-300 transition-colors hover:border-white/30 hover:text-white"
       >
         {copied ? "Copied!" : "Copy"}
       </button>
@@ -89,7 +89,7 @@ export default function Contact({ contact }: { contact: ContactData }) {
           </motion.h2>
           <p className="mt-4 max-w-xl text-slate-400">{contact.note}</p>
 
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
             <a href={contact.github} target="_blank" rel="noopener noreferrer" className="btn-ghost">
               <GitHubIcon className="h-4 w-4" /> GitHub
             </a>

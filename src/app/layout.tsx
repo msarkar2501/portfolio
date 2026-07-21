@@ -38,7 +38,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-ink-950 text-slate-200 antialiased">
+      <body className="min-h-screen bg-ink-950 text-slate-200 antialiased overflow-x-hidden">
         {/* Fixed, soothing background: starfield + discipline-tinted orbs */}
         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
           <div className="absolute inset-0 starfield opacity-[0.35]" />
