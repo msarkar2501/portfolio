@@ -17,7 +17,7 @@ export default function Multidisciplinary({ narrative }: { narrative: Narrative 
           </p>
         </Reveal>
 
-        <div className="mt-12 grid gap-5 md:grid-cols-3">
+        <div className="mt-12 grid gap-5 grid-cols-1 md:grid-cols-3">
           {narrative.pillars.map((pillar, i) => {
             const accent = accentClasses[pillar.accent as Accent];
             return (

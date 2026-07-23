@@ -26,7 +26,7 @@ export default function Skills({ skills }: { skills: Skill[] }) {
           </p>
         </Reveal>
 
-        <div className="mt-10 grid gap-5 md:grid-cols-2">
+        <div className="mt-10 grid gap-5 grid-cols-1 md:grid-cols-2">
           {grouped.map((group, gi) => {
             const meta = CATEGORY_META[group.cat];
             const a = accentClasses[categoryAccent(group.cat)];

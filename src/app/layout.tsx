@@ -16,6 +16,9 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
   themeColor: "#05070f",
 };
 
@@ -42,8 +45,8 @@ export default function RootLayout({
         {/* Fixed, soothing background: starfield + discipline-tinted orbs */}
         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
           <div className="absolute inset-0 starfield opacity-[0.35]" />
-          <div className="absolute -left-40 top-[-10rem] h-[28rem] w-[28rem] rounded-full bg-ai/20 blur-[120px]" />
-          <div className="absolute -right-40 top-1/3 h-[26rem] w-[26rem] rounded-full bg-astro/20 blur-[120px]" />
+          <div className="absolute left-[-20rem] top-[-10rem] h-[28rem] w-[28rem] rounded-full bg-ai/20 blur-[120px] lg:left-[-40rem]" />
+          <div className="absolute right-[-20rem] top-1/3 h-[26rem] w-[26rem] rounded-full bg-astro/20 blur-[120px] lg:right-[-40rem]" />
           <div className="absolute bottom-[-12rem] left-1/3 h-[26rem] w-[26rem] rounded-full bg-mech/10 blur-[120px]" />
           <div
             className="absolute inset-0 bg-grid-faint opacity-[0.15]"

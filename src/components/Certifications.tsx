@@ -22,7 +22,7 @@ export default function Certifications({
           </h2>
         </Reveal>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((cert, i) => (
             <Reveal key={cert.id} delay={i * 0.08}>
               <div className={`card flex h-full flex-col border ${a.borderSoft} ${a.hoverBorder}`}>
