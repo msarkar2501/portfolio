@@ -18,7 +18,7 @@ export default function Certifications({
         <Reveal>
           <span className="section-eyebrow">Certifications</span>
           <h2 className="section-title mt-3">
-            Credentials that back the ML work
+            Credentials that back my work
           </h2>
         </Reveal>
 
