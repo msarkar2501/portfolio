@@ -93,7 +93,7 @@ export default function Hero({
             transition={{ duration: 0.7, delay: 0.18 }}
             className="mt-3 max-w-xl text-sm leading-relaxed text-slate-400"
           >
-            A third-year Mechanical Engineering student who treats physics, code,
+            A Mechanical Engineering student who treats physics, code,
             and hardware as one toolkit — and turns the intersection into a
             measurable edge.
           </motion.p>
