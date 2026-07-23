@@ -45,11 +45,11 @@ body {
 
 @layer components {
   .container-page {
-    @apply mx-auto w-full max-w-6xl overflow-x-hidden px-5 sm:px-8;
+    @apply mx-auto w-full max-w-6xl overflow-x-hidden px-4 sm:px-6;
   }
 
   .section-eyebrow {
-    @apply mb-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-slate-300;
+    @apply mb-3 inline-flex flex-wrap items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 sm:px-4 sm:py-1 text-xs font-medium uppercase tracking-[0.18em] text-slate-300 max-w-fit;
   }
 
   .section-title {

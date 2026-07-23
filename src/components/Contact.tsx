@@ -68,7 +68,7 @@ export default function Contact({ contact }: { contact: ContactData }) {
       id="contact"
       className="scroll-mt-24 border-t border-white/5 bg-ink-900/40 py-20 sm:py-28"
     >
-      <div className="container-page grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+      <div className="container-page w-full max-w-full overflow-x-hidden grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <motion.span
             initial={{ opacity: 0, y: 12 }}
@@ -89,14 +89,14 @@ export default function Contact({ contact }: { contact: ContactData }) {
           </motion.h2>
           <p className="mt-4 max-w-xl text-slate-400">{contact.note}</p>
 
-          <div className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            <a href={contact.github} target="_blank" rel="noopener noreferrer" className="btn-ghost">
+          <div className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full">
+            <a href={contact.github} target="_blank" rel="noopener noreferrer" className="btn-ghost w-full sm:w-auto">
               <GitHubIcon className="h-4 w-4" /> GitHub
             </a>
-            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn-ghost">
+            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn-ghost w-full sm:w-auto">
               <LinkedInIcon className="h-4 w-4" /> LinkedIn
             </a>
-            <a href={`mailto:${contact.email}`} className="btn-primary">
+            <a href={`mailto:${contact.email}`} className="btn-primary w-full sm:w-auto">
               <MailIcon className="h-4 w-4" /> Email me <ArrowIcon className="h-4 w-4" />
             </a>
           </div>

@@ -55,17 +55,17 @@ export default function Hero({
   return (
     <section
       id="top"
-      className="relative flex min-h-screen items-center pt-24 pb-16"
+      className="relative flex min-h-screen items-center pt-24 pb-16 overflow-hidden w-full max-w-full overflow-x-hidden"
     >
-      <div className="container-page grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
-        <div>
+      <div className="container-page grid items-center gap-10 grid-cols-1 lg:grid-cols-12 w-full max-w-full overflow-x-hidden px-4 sm:px-6">
+        <div className="lg:col-span-7">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="section-eyebrow"
+            className="section-eyebrow flex flex-wrap items-center gap-2 text-xs max-w-fit px-3 py-1.5"
           >
-            <SparkIcon className="h-3.5 w-3.5 text-ai" />
+            <SparkIcon className="h-3.5 w-3.5 text-ai flex-shrink-0" />
             AI/ML · Astrophysics · Mechanical Engineering
           </motion.div>
 
@@ -102,16 +102,16 @@ export default function Hero({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.24 }}
-            className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
+            className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto"
           >
-            <a href="#research" className="btn-primary">
+            <a href="#research" className="btn-primary w-full sm:w-auto">
               Explore my work <ArrowIcon className="h-4 w-4" />
             </a>
-            <a href="#contact" className="btn-ghost">
+            <a href="#contact" className="btn-ghost w-full sm:w-auto">
               <MailIcon className="h-4 w-4" /> Get in touch
             </a>
             {profile.cvUrl && (
-              <a href={profile.cvUrl} download className="btn-ghost">
+              <a href={profile.cvUrl} download className="btn-ghost w-full sm:w-auto">
                 <DownloadIcon className="h-4 w-4" /> Download CV
               </a>
             )}
@@ -121,7 +121,7 @@ export default function Hero({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.32 }}
-            className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
+            className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto"
           >
             <a
               href={profile.github}
@@ -155,13 +155,13 @@ export default function Hero({
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, delay: 0.2 }}
-          className="relative mx-auto hidden aspect-square w-full max-w-sm sm:block"
+          className="relative mx-auto hidden aspect-square w-full max-w-sm lg:block lg:col-span-5"
         >
           <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-ai via-astro to-mech opacity-90 blur-[1px]" />
           <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10" />
-          <OrbitRing size={200} duration={18} color="rgba(139,92,246,0.55)" />
-          <OrbitRing size={290} duration={30} color="rgba(99,102,241,0.5)" delay={2} />
-          <OrbitRing size={380} duration={44} color="rgba(245,158,11,0.45)" delay={1} />
+          <OrbitRing size={180} duration={18} color="rgba(139,92,246,0.55)" />
+          <OrbitRing size={260} duration={30} color="rgba(99,102,241,0.5)" delay={2} />
+          <OrbitRing size={340} duration={44} color="rgba(245,158,11,0.45)" delay={1} />
           <span className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center text-xs uppercase tracking-[0.2em] text-slate-500">
             one system · three fields
           </span>
@@ -169,7 +169,7 @@ export default function Hero({
       </div>
 
       {/* Stats strip */}
-      <div className="container-page mt-16">
+      <div className="container-page mt-12 w-full max-w-full overflow-x-hidden px-4 sm:px-6">
         <div className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/5 sm:grid-cols-3">
           {STATS.map((s, i) => {
             const inner = (
