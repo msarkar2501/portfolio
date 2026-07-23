@@ -118,7 +118,13 @@
         "Computer Vision",
         "Astronomy"
       ],
-      "media": []
+      "media": [
+        {
+          "url": "/uploads/summerintern2025-1.png",
+          "caption": "ResNet-18 + XGBoost model architecture pipeline",
+          "type": "image"
+        }
+      ]
     }
   ],
   "projects": [
