@@ -197,156 +197,55 @@
     }
   ],
   "skills": [
-    {
-      "id": "sk-python",
-      "name": "Python",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-ccpp",
-      "name": "C/C++",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-sup",
-      "name": "Supervised Learning",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-unsup",
-      "name": "Unsupervised Learning",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-cv",
-      "name": "Computer Vision",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-nn",
-      "name": "Neural Networks",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-nlp",
-      "name": "NLP",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-img",
-      "name": "Image Processing",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-tf",
-      "name": "TensorFlow",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-torch",
-      "name": "PyTorch",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-sk",
-      "name": "Scikit-learn",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-np",
-      "name": "NumPy",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-mat",
-      "name": "Matplotlib",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-ocv",
-      "name": "OpenCV",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-mp",
-      "name": "MediaPipe",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-yolo",
-      "name": "YOLO",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-astro",
-      "name": "Astropy",
-      "category": "Astrophysics"
-    },
-    {
-      "id": "sk-aq",
-      "name": "AstroQuery",
-      "category": "Astrophysics"
-    },
-    {
-      "id": "sk-spice",
-      "name": "SpiceyPy",
-      "category": "Astrophysics"
-    },
-    {
-      "id": "sk-sw",
-      "name": "SolidWorks",
-      "category": "Mechanical"
-    },
-    {
-      "id": "sk-creo",
-      "name": "CREO Parametric",
-      "category": "Mechanical"
-    },
-    {
-      "id": "sk-os",
-      "name": "OnShape",
-      "category": "Mechanical"
-    },
-    {
-      "id": "sk-acad",
-      "name": "AutoCAD",
-      "category": "Mechanical"
-    },
-    {
-      "id": "sk-matlab",
-      "name": "MATLAB",
-      "category": "Mechanical"
-    },
-    {
-      "id": "sk-llm-apis-groq-",
-      "name": "LLM APIs (Groq)",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-prompt-engineering",
-      "name": "Prompt Engineering",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-rag",
-      "name": "RAG",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-chromadb",
-      "name": "ChromaDB",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-vector-embeddings",
-      "name": "Vector Embeddings",
-      "category": "AI/ML"
-    },
-    {
-      "id": "sk-agentic-tool-use",
-      "name": "Agentic Tool Use",
-      "category": "AI/ML"
-    }
+    { "id": "sk-python", "name": "Python", "category": "AI/ML" },
+    { "id": "sk-ccpp", "name": "C/C++", "category": "AI/ML" },
+    { "id": "sk-sup", "name": "Supervised Learning", "category": "AI/ML" },
+    { "id": "sk-unsup", "name": "Unsupervised Learning", "category": "AI/ML" },
+    { "id": "sk-cv", "name": "Computer Vision", "category": "AI/ML" },
+    { "id": "sk-nn", "name": "Neural Networks", "category": "AI/ML" },
+    { "id": "sk-nlp", "name": "NLP", "category": "AI/ML" },
+    { "id": "sk-img", "name": "Image Processing", "category": "AI/ML" },
+    { "id": "sk-tf", "name": "TensorFlow", "category": "AI/ML" },
+    { "id": "sk-torch", "name": "PyTorch", "category": "AI/ML" },
+    { "id": "sk-sk", "name": "Scikit-learn", "category": "AI/ML" },
+    { "id": "sk-np", "name": "NumPy", "category": "AI/ML" },
+    { "id": "sk-mat", "name": "Matplotlib", "category": "AI/ML" },
+    { "id": "sk-ocv", "name": "OpenCV", "category": "AI/ML" },
+    { "id": "sk-mp", "name": "MediaPipe", "category": "AI/ML" },
+    { "id": "sk-yolo", "name": "YOLO", "category": "AI/ML" },
+    { "id": "sk-astro", "name": "Astropy", "category": "Astrophysics" },
+    { "id": "sk-aq", "name": "AstroQuery", "category": "Astrophysics" },
+    { "id": "sk-spice", "name": "SpiceyPy", "category": "Astrophysics" },
+    { "id": "sk-sw", "name": "SolidWorks", "category": "Mechanical" },
+    { "id": "sk-creo", "name": "CREO Parametric", "category": "Mechanical" },
+    { "id": "sk-os", "name": "OnShape", "category": "Mechanical" },
+    { "id": "sk-acad", "name": "AutoCAD", "category": "Mechanical" },
+    { "id": "sk-matlab", "name": "MATLAB", "category": "Mechanical" },
+    { "id": "sk-llm-apis-groq-", "name": "LLM APIs (Groq)", "category": "AI/ML" },
+    { "id": "sk-prompt-engineering", "name": "Prompt Engineering", "category": "AI/ML" },
+    { "id": "sk-rag", "name": "RAG", "category": "AI/ML" },
+    { "id": "sk-chromadb", "name": "ChromaDB", "category": "AI/ML" },
+    { "id": "sk-vector-embeddings", "name": "Vector Embeddings", "category": "AI/ML" },
+    { "id": "sk-agentic-tool-use", "name": "Agentic Tool Use", "category": "AI/ML" },
+
+    { "id": "sk-deep-learning", "name": "Deep Learning", "category": "AI/ML" },
+    { "id": "sk-ml", "name": "Machine Learning", "category": "AI/ML" },
+    { "id": "sk-reinforcement-learning", "name": "Reinforcement Learning", "category": "AI/ML" },
+    { "id": "sk-classification-algorithms", "name": "Classification Algorithms", "category": "AI/ML" },
+    { "id": "sk-responsible-ai", "name": "Responsible AI", "category": "AI/ML" },
+    { "id": "sk-data-ethics", "name": "Data Ethics", "category": "AI/ML" },
+    { "id": "sk-ai", "name": "Artificial Intelligence", "category": "AI/ML" },
+    { "id": "sk-cnn", "name": "Convolutional Neural Networks", "category": "AI/ML" },
+    { "id": "sk-ann", "name": "Artificial Neural Networks", "category": "AI/ML" },
+    { "id": "sk-model-training", "name": "Model Training", "category": "AI/ML" },
+    { "id": "sk-model-optimization", "name": "Model Optimization", "category": "AI/ML" },
+    { "id": "sk-model-evaluation", "name": "Model Evaluation", "category": "AI/ML" },
+    { "id": "sk-data-preprocessing", "name": "Data Preprocessing", "category": "AI/ML" },
+    { "id": "sk-data-processing", "name": "Data Processing", "category": "AI/ML" },
+    { "id": "sk-keras", "name": "Keras (Neural Network Library)", "category": "AI/ML" },
+    { "id": "sk-image-analysis", "name": "Image Analysis", "category": "AI/ML" },
+    { "id": "sk-fine-tuning", "name": "Fine-tuning", "category": "AI/ML" },
+    { "id": "sk-transfer-learning", "name": "Transfer Learning", "category": "AI/ML" }
   ],
   "contact": {
     "email": "manitsarkar25@gmail.com",
