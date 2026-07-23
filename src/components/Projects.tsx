@@ -7,13 +7,12 @@ export default function Projects({ items }: { items: ProjectItem[] }) {
     <section id="projects" className="scroll-mt-24 py-20 sm:py-28">
       <div className="container-page">
         <Reveal>
-          <span className="section-eyebrow">Capstone Project</span>
+          <span className="section-eyebrow">Featured Projects</span>
           <h2 className="section-title mt-3">
-            Building hardware that proves the model
+            Featured Engineering & Technical Projects
           </h2>
           <p className="mt-3 max-w-2xl text-slate-400">
-            Where my mechanical training becomes tangible — a real device, real
-            flow regimes, and measurements I can defend.
+            A selection of technical projects spanning computational modeling, autonomous systems, and engineering design.
           </p>
         </Reveal>
 

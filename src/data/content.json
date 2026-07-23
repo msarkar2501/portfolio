@@ -158,23 +158,42 @@
     {
       "id": "cert-ml-spec",
       "name": "Machine Learning Specialization",
-      "issuer": "DeepLearning.AI (Andrew Ng)",
-      "period": "",
-      "note": "Supervised & unsupervised learning, recommender systems, reinforcement learning."
+      "issuer": "Stanford Online & DeepLearning.AI",
+      "period": "Apr 2025",
+      "note": "Supervised & unsupervised learning, recommender systems, reinforcement learning.",
+      "link": "https://coursera.org/verify/specialization/A7732OHPAZRQ"
     },
     {
-      "id": "cert-tf-dev",
-      "name": "TensorFlow Developer Certificate Courses",
-      "issuer": "Laurence Moroney / Andrew Ng",
-      "period": "",
-      "note": "Production-grade model building and deployment with TensorFlow."
+      "id": "cert-nn-dl",
+      "name": "Neural Networks and Deep Learning",
+      "issuer": "DeepLearning.AI",
+      "period": "Sep 2024",
+      "note": "Foundations of neural networks, backpropagation, and deep learning architectures.",
+      "link": "https://coursera.org/verify/V9HCDAQ3VH83"
     },
     {
-      "id": "cert-dl-spec",
-      "name": "Deep Learning Specialization",
-      "issuer": "DeepLearning.AI (Neural Networks & Deep Learning)",
-      "period": "",
-      "note": "Neural networks, hyperparameter tuning, regularization, optimization."
+      "id": "cert-tf-intro",
+      "name": "Introduction to TensorFlow for AI, ML, and Deep Learning",
+      "issuer": "DeepLearning.AI",
+      "period": "Jul 2024",
+      "note": "Introduction to TensorFlow and its applications in AI, ML, and deep learning.",
+      "link": "https://coursera.org/verify/Q2DT2DQZ8NGF"
+    },
+    {
+      "id": "cert-tf-cnn",
+      "name": "Convolutional Neural Networks in TensorFlow",
+      "issuer": "DeepLearning.AI",
+      "period": "Jul 2024",
+      "note": "overfitting, dropout, augmentation, and transfer learning in CNNs.",
+      "link": "https://coursera.org/verify/ENXGHH4SAMYS"
+    },
+    {
+      "id": "cert-tf-nlp",
+      "name": "Natural Language Processing in TensorFlow",
+      "issuer": "DeepLearning.AI",
+      "period": "Aug 2024",
+      "note": "tokenization, RNNs, GRUs, LSTMs, and attention mechanisms in NLP.",
+      "link": "https://coursera.org/verify/SB1EBGVVYCMM"
     }
   ],
   "skills": [

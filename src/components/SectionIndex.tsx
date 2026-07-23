@@ -2,15 +2,15 @@ import Reveal from "./Reveal";
 import { ArrowIcon } from "./icons";
 
 const SECTIONS = [
-  { id: "summary", title: "Professional Summary", desc: "Who I am, in plain language." },
-  { id: "multidisciplinary", title: "The Multidisciplinary Edge", desc: "Why AI/ML × Astrophysics × Mechanical is my superpower." },
-  { id: "education", title: "Education", desc: "" },
-  { id: "internship", title: "Internship", desc: "ResNet-18 + XGBoost galaxy classifier (~93%)." },
-  { id: "research", title: "Research", desc: "Galaxy morphology & orbital dynamics with ML." },
-  { id: "projects", title: "Capstone Project", desc: "Flow-induced vibration energy harvester." },
-  { id: "certifications", title: "Certifications", desc: "DeepLearning.AI, TensorFlow Developer." },
-  { id: "skills", title: "Skills", desc: "The full toolkit, mapped by discipline." },
-  { id: "contact", title: "Contact", desc: "Email, phone, GitHub, LinkedIn." },
+  { id: "summary", title: "Professional Summary", desc: "Background, technical focus, and engineering approach." },
+  { id: "multidisciplinary", title: "The Multidisciplinary Edge", desc: "Connecting AI/ML, Astrophysics, and Mechanical systems." },
+  { id: "education", title: "Education", desc: "Academic background, coursework, and core metrics." },
+  { id: "internship", title: "Experience", desc: "Professional internships and hands-on industry experience." },
+  { id: "research", title: "Research", desc: "Computational modeling, physics, and data-driven studies." },
+  { id: "projects", title: "Projects", desc: "Featured engineering design and software builds." },
+  { id: "certifications", title: "Certifications", desc: "Verified credentials and specialized technical training." },
+  { id: "skills", title: "Skills", desc: "Technical toolkits, frameworks, and domain expertise." },
+  { id: "contact", title: "Contact", desc: "Direct channels for communication and professional links." },
 ];
 
 export default function SectionIndex({ cgpa }: { cgpa?: string }) {

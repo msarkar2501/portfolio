@@ -11,9 +11,9 @@ export default function Internship({
     <section id="internship" className="scroll-mt-24 border-t border-white/5 bg-ink-900/40 py-20 sm:py-28">
       <div className="container-page">
         <Reveal>
-          <span className="section-eyebrow">Internship</span>
+          <span className="section-eyebrow">Experience</span>
           <h2 className="section-title mt-3">
-            Hands-on: from pixels to predictions
+            Practical applications across research, engineering, and software.
           </h2>
         </Reveal>
 

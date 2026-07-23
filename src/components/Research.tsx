@@ -9,11 +9,10 @@ export default function Research({ items }: { items: ResearchItem[] }) {
         <Reveal>
           <span className="section-eyebrow">Research</span>
           <h2 className="section-title mt-3">
-            Research at the physics–ML boundary
+            Academic research and publications
           </h2>
           <p className="mt-3 max-w-2xl text-slate-400">
-            Two active lines of work where governed physical systems meet
-            learning models — and where I insist the physics stays honest.
+            Investigating complex physical systems, computational modeling, and data-driven methods.
           </p>
         </Reveal>
 
