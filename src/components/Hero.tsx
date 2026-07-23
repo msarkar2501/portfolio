@@ -157,14 +157,16 @@ export default function Hero({
           transition={{ duration: 0.9, delay: 0.2 }}
           className="relative mx-auto hidden aspect-square w-full max-w-sm lg:block lg:col-span-5"
         >
-          <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-ai via-astro to-mech opacity-90 blur-[1px]" />
-          <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10" />
-          <OrbitRing size={180} duration={18} color="rgba(139,92,246,0.55)" />
-          <OrbitRing size={260} duration={30} color="rgba(99,102,241,0.5)" delay={2} />
-          <OrbitRing size={340} duration={44} color="rgba(245,158,11,0.45)" delay={1} />
-          <span className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center text-xs uppercase tracking-[0.2em] text-slate-500">
+          <div className="relative aspect-square w-full">
+            <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-ai via-astro to-mech opacity-90 blur-[1px]" />
+            <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10" />
+            <OrbitRing size={180} duration={18} color="rgba(139,92,246,0.55)" />
+            <OrbitRing size={260} duration={30} color="rgba(99,102,241,0.5)" delay={2} />
+            <OrbitRing size={340} duration={44} color="rgba(245,158,11,0.45)" delay={1} />
+          </div>
+          <p className="mt-4 text-center text-xs uppercase tracking-[0.2em] text-slate-500">
             one system · three fields
-          </span>
+          </p>
         </motion.div>
       </div>
 
