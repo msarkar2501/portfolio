@@ -49,7 +49,7 @@ export default function Hero({
   const cgpaValue = cgpa && cgpa.trim() ? cgpa : "—";
   const STATS: { value: string; label: string; href?: string }[] = [
     { value: cgpaValue, label: "CGPA / 10", href: "#education" },
-    { value: "3+", label: "Research & capstone projects" },
+    { value: "3+", label: "Research and projects" },
     { value: "3", label: "Disciplines fused" },
   ];
   return (
