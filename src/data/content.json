@@ -108,7 +108,7 @@
     {
       "id": "int-elsi",
       "title": "Experiential Learning Summer Internship",
-      "organization": "Research Internship",
+      "organization": "Thapar University",
       "period": "Summer",
       "description": "Classified galaxy morphologies using a ResNet-18 CNN combined with an XGBoost ensemble, achieving ~93% overall classification accuracy across morphological classes.",
       "tags": [
@@ -122,6 +122,27 @@
         {
           "url": "/images/summerintern2025-1.png",
           "caption": "Certification of Completion for the Experiential Learning Summer Internship",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "int-msilsummer",
+      "title": "Summer Internship at MSIL",
+      "organization": "Maruti Suzuki India Limited",
+      "period": "Summer 2026",
+      "description": "Six-week internship (Jun–Jul 2026) at MSIL's Gurugram facility under the Powertrain testing and validation division and gained exposure to the working of the automotive engine and its subsystems. Independently authored an analytical study, 'Failure Mode Analysis of Engine Components,' applying FMEA principles to crankshaft bending fatigue and piston mechanical/thermal fatigue — using stress concentration factors (Arai's method), Goodman and Coffin-Manson criteria, and S-N curve life estimation.",
+      "tags": [
+        "FMEA",
+        "Fatigue Analysis",
+        "Automotive Engineering",
+        "S-N Curves",
+        "Engine Working"
+      ],
+      "media": [
+        {
+          "url": "/images/maruti_suzuki_summer_internship_certificate_2026-1.png",
+          "caption": "Internship completion certificate — Failure Mode Analysis of Engine Components, MSIL",
           "type": "image"
         }
       ]
