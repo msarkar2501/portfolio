@@ -72,7 +72,7 @@ export default function Navbar() {
 
           <div className="hidden items-center gap-1 md:flex">
             {NAV.map((item) => (
-              <a
+              
                 key={item.id}
                 href={`#${item.id}`}
                 className={`relative rounded-full px-3.5 py-2 text-sm transition-colors ${
@@ -92,7 +92,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-2">
-            <a
+            
               href="https://github.com/msarkar2501"
               target="_blank"
               rel="noopener noreferrer"
@@ -101,7 +101,7 @@ export default function Navbar() {
             >
               <GitHubIcon className="h-4 w-4" />
             </a>
-            <a
+            
               href="https://www.linkedin.com/in/manit-sarkar-486363283"
               target="_blank"
               rel="noopener noreferrer"
@@ -109,9 +109,6 @@ export default function Navbar() {
               className="hidden h-9 w-9 items-center justify-center rounded-full border border-white/10 text-slate-300 transition-colors hover:border-white/30 hover:text-white sm:flex"
             >
               <LinkedInIcon className="h-4 w-4" />
-            </a>
-            <a href="/admin" className="btn-ghost hidden h-9 px-4 text-xs sm:inline-flex">
-              Edit site
             </a>
             <button
               onClick={() => setOpen((v) => !v)}
@@ -147,7 +144,7 @@ export default function Navbar() {
             >
               <div className="container-page flex flex-col gap-1 py-6">
                 {NAV.map((item) => (
-                  <a
+                  
                     key={item.id}
                     href={`#${item.id}`}
                     onClick={() => setOpen(false)}
@@ -156,13 +153,6 @@ export default function Navbar() {
                     {item.label}
                   </a>
                 ))}
-                <a
-                  href="/admin"
-                  onClick={() => setOpen(false)}
-                  className="btn-ghost mt-2 justify-center"
-                >
-                  Edit site (admin)
-                </a>
               </div>
             </motion.div>
           </>
