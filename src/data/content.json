@@ -180,6 +180,29 @@
       ],
       "media": [],
       "link": "https://github.com/msarkar2501/LLM_Learning/tree/main/6_Research_Agent"
+    },
+    {
+      "id": "proj-cip",
+      "title": "Contract Intelligence Platform",
+      "period": "Aug 2026",
+      "description": "Full-stack contract analysis platform built around four LLM subagents — extraction, perspective-aware risk scoring, gap-checking, and summarization — plus a deterministic, non-LLM validation layer that fuzzy-matches extracted clauses against the source text. Classifies clauses against a 19-type taxonomy and scores each clause's risk from 1–10 relative to a user-selected party, so the same clause can read as low-risk for one side and high-risk for the other. Containerized with Docker and deployed on Render, with a FastAPI backend and a framework-free HTML/CSS/JS frontend.",
+      "tags": [
+        "FastAPI",
+        "Docker",
+        "Gemini API",
+        "Structured Output",
+        "Multi-Agent Orchestration",
+        "Python",
+        "Full-Stack Deployment"
+      ],
+      "media": [
+        {
+          "url": "/images/front.png",
+          "caption": "Platform Webpage",
+          "type": "image"
+        }
+      ],
+      "link": "https://contract-intelligence-platform-eauj.onrender.com"
     }
   ],
   "certifications": [
@@ -280,7 +303,13 @@
     { "id": "sk-keras", "name": "Keras (Neural Network Library)", "category": "AI/ML" },
     { "id": "sk-image-analysis", "name": "Image Analysis", "category": "AI/ML" },
     { "id": "sk-fine-tuning", "name": "Fine-tuning", "category": "AI/ML" },
-    { "id": "sk-transfer-learning", "name": "Transfer Learning", "category": "AI/ML" }
+    { "id": "sk-transfer-learning", "name": "Transfer Learning", "category": "AI/ML" },
+    { "id": "sk-fastapi", "name": "FastAPI", "category": "AI/ML" },
+    { "id": "sk-docker", "name": "Docker", "category": "AI/ML" },
+    { "id": "sk-multi-agent-orchestration", "name": "Multi-Agent Orchestration", "category": "AI/ML" },
+    { "id": "sk-structured-output", "name": "Structured Output / Function Calling", "category": "AI/ML" },
+    { "id": "sk-rest-api-design", "name": "REST API Design", "category": "AI/ML" },
+    { "id": "sk-llm-apis-gemini", "name": "LLM APIs (Gemini)", "category": "AI/ML" }
   ],
   "contact": {
     "email": "manitsarkar25@gmail.com",
