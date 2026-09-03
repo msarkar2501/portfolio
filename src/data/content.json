@@ -245,6 +245,26 @@
       "period": "Aug 2024",
       "note": "tokenization, RNNs, GRUs, LSTMs, and attention mechanisms in NLP.",
       "link": "https://coursera.org/verify/SB1EBGVVYCMM"
+    },
+    {
+      "id": "cert-roboai",
+      "name": "Robotics and Artificial Intelligence – Industrial Training Program (RoboAI)",
+      "issuer": "My Equation Education",
+      "period": "Sep – Nov 2024",
+      "note": "45-day industrial training program covering robotics and AI, with hands-on major/minor projects. Endorsed by Tech Analogy Pvt. Ltd.; ratified under the NVIDIA Inception Program and recognized by Startup India.",
+      "media": [
+        {
+          "url": "/images/Manit_Sarkar_RoboAI_COA-1.png",
+          "caption": "Certificate of Appreciation — Robotics and AI Industrial Training Program, My Equation",
+          "type": "image"
+        },
+        {
+          "url": "/images/Manit_Sarkar_RoboAI_LOR-1.png",
+          "caption": "Endorsement letter from Tech Analogy Pvt. Ltd. for the RoboAI Industrial Training Program",
+          "type": "image"
+        }
+      ],
+      "link": "https://drive.google.com/file/d/1IKuPN2LeSEeQmyIgfTmHfoGxhaOSkHdy/view?usp=sharing"
     }
   ],
   "skills": [
@@ -309,7 +329,8 @@
     { "id": "sk-multi-agent-orchestration", "name": "Multi-Agent Orchestration", "category": "AI/ML" },
     { "id": "sk-structured-output", "name": "Structured Output / Function Calling", "category": "AI/ML" },
     { "id": "sk-rest-api-design", "name": "REST API Design", "category": "AI/ML" },
-    { "id": "sk-llm-apis-gemini", "name": "LLM APIs (Gemini)", "category": "AI/ML" }
+    { "id": "sk-llm-apis-gemini", "name": "LLM APIs (Gemini)", "category": "AI/ML" },
+    { "id": "sk-robotics", "name": "Robotics", "category": "AI/ML" }
   ],
   "contact": {
     "email": "manitsarkar25@gmail.com",
@@ -325,5 +346,5 @@
       "description": "Exploring how combining mechanical engineering principles with deep learning can create Physics-Informed Neural Networks (PINNs) and lightweight surrogate models. Passionate about leveraging these hybrid models to accelerate complex simulations, predict structural vibrations, and model orbital perturbations with high computational efficiency and physical accuracy."
     }
   ],
-  "updatedAt": "2026-07-15T20:45:59.450Z"
+  "updatedAt": "2026-09-03T00:00:00.000Z"
 }
