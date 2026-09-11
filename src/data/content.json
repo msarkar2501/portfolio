@@ -265,6 +265,21 @@
         }
       ],
       "link": "https://drive.google.com/file/d/1IKuPN2LeSEeQmyIgfTmHfoGxhaOSkHdy/view?usp=sharing"
+    },
+    {
+      "id": "cert-matlab",
+      "name": "MATLAB Onramp",
+      "issuer": "MATLAB Mathworks",
+      "period": "September 2026",
+      "note": "MATLAB Onramp course covering MATLAB basics, programming, and data analysis.",
+      "media": [
+        {
+          "url": "/images/matlab_onramp.png",
+          "caption": "Certificate of Completion — MATLAB Onramp, MATLAB Mathworks",
+          "type": "image"
+        }
+      ],
+      "link": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3dcffa1a-eb50-4a1f-b3bb-b7efdff95bc5&"
     }
   ],
   "skills": [
